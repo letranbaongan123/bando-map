@@ -35,3 +35,4 @@ out/
 # Cache
 .cache/
 .next/
+.env*
