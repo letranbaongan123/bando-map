@@ -1,0 +1,30 @@
+{
+  "name": "shipper-checkin",
+  "version": "1.0.0",
+  "description": "Hệ thống check-in giao hàng với GPS tracking và Telegram integration",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js"
+  },
+  "keywords": [
+    "shipper",
+    "checkin",
+    "gps",
+    "tracking",
+    "telegram"
+  ],
+  "author": "Shipper Tracking",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}

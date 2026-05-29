@@ -1,3 +1,15 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "buildCommand": "npm run build || true",
+  "devCommand": "npm run dev",
+  "env": {
+    "TELEGRAM_TOKEN": "@TELEGRAM_TOKEN",
+    "CHAT_ID": "@CHAT_ID"
+  },
+  "functions": {
+    "api/send-location.js": {
+      "memory": 128,
+      "maxDuration": 10
+    }
+  }
 }
