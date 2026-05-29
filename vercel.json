@@ -1,11 +1,15 @@
 {
   "cleanUrls": true,
-  "buildCommand": "npm run build || true",
-  "devCommand": "npm run dev",
-    "functions": {
+  "functions": {
     "api/send-location.js": {
       "memory": 128,
       "maxDuration": 10
     }
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    }
+  ]
 }
